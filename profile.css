@@ -1,0 +1,44 @@
+.overview{
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avtarbox{
+    position: relative;
+    left: 30px;
+    text-align: center;
+    top: 20px;
+}
+.oneinfobox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.oneinfobox span{
+    color: #0075ff;
+}
+.infobox{
+    position: relative;
+    right: 200px;
+}
+.offon{
+    background-color:#0075ff;
+    width:60px;
+    height: 20px;
+    border-radius: 10px;
+}
+.offoncircle{
+   background-color: white;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   position: relative;
+   top: 2px;
+   left: 5px;
+}

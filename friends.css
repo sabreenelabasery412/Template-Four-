@@ -1,0 +1,25 @@
+.circlegray{
+    background-color: #eee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    display: inline-block;
+    position: relative;
+    bottom: 170px;
+    right: 130px;
+}
+.onecourse h4{
+    position: relative;
+    top: 30px;
+    left: 95px;
+}
+.bottom{
+   display: inline-block;
+   width: 70px;
+   position: relative;
+   top: 200px;
+   left: 140px;
+
+}

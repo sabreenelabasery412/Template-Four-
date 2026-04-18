@@ -1,0 +1,61 @@
+.projecttitle{
+    position: relative;
+    bottom: 15px;
+}
+.projectimgs{
+   
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+   top: 40px;
+   right: 400px;
+   
+
+}
+.projectimgs img:not(:first-child){
+    margin-left: -10px;
+}
+
+.projectprogress{
+    background-color: lightgray;
+    width: 200px;
+    height:10px ;
+    border-radius: 5px;
+
+}
+.projectprogress span{
+    background-color: red;
+    width: 50px;
+    height:5px ;
+    border-radius: 5px;
+    z-index: 1;
+
+}
+.percentproject{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    right: 850px;
+}
+.onebottomprojects{
+    background-color: lightgrey;
+    color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    margin: 10px;
+}
+.bottomprojects{
+    position: relative;
+    right: 270px;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+.filebox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #eee;
+    width:90% ;
+    position: relative;
+    left: 15px;
+    top: 50px;
+    margin: 30px 0;
+    color: gray;
+    border-radius: 8px;
+}
+.fileboxicon{
+    width: 40px;
+    height: 40px;
+    background-color: palegoldenrod;
+    text-align: center;
+    line-height: 40px;
+}
+.download{
+    background-color: #0075ff;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.download:hover{
+    background-color: gray;
+}
